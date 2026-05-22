@@ -6,4 +6,42 @@
 
 h1 {
   text-align: center;
+  margin-bottom: 30px;
+}
+
+.add-task {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  background-color: #4f46e5;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.task-list li {
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
